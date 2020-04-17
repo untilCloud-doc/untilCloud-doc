@@ -110,3 +110,11 @@
 | 最后一次修改时间 | ModificationDate | date        |                      |
 | 最后一次修改者   | Modifier         | int         |                      |
 
+**签到 SignIn**
+
+| name     | code       | datatype | else |
+| -------- | ---------- | -------- | ---- |
+| 编号     | Id         | int      | 主键 |
+| 用户编号 | UserId     | int      | 外键 |
+| 签到时间 | SignInData | data     |      |
+
